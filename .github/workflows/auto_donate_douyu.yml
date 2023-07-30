@@ -5,8 +5,8 @@ on:
     branches:
       - master
   workflow_dispatch: 
-  schedule:
-    - cron: '20 5 * * *'
+##  schedule:
+##    - cron: '20 5 * * *'
 
 jobs:
   dy_auto_donate_helper:
